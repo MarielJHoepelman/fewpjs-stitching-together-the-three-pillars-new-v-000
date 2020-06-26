@@ -27,6 +27,7 @@ function likeCallback(e) {
       // sending of information to the server succeeds.
     //  alert("You notified the server!");
     //  alert(serverMessage);
+    console.log(serverMessage)
       heart.innerText = glyphStates[heart.innerText];
       heart.style.color = colorStates[heart.style.color];
     })

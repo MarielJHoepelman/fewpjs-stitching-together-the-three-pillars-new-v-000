@@ -15,7 +15,7 @@ let colorStates = {
 // this code and refresh the demo page.
 
 let articleHearts = document.querySelectorAll(".like-glyph");
-
+console.log(articleHearts)
 function likeCallback(e) {
   let heart = e.target;
   mimicServerCall()
